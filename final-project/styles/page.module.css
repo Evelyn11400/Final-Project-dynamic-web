@@ -39,6 +39,18 @@
   color: #74512d;
 }
 
+.logout {
+  all: unset;
+  color: #543310;
+  cursor: pointer;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.logout:hover {
+  color: #74512d;
+}
+
 .diaryWrapper {
   border-bottom: 10px solid #af8f6f;
   border-left: 10px solid #af8f6f;

@@ -14,9 +14,9 @@ export default function Header({ isLoggedIn, logoutUserFunction }) {
                 <Link href="/diary">Home</Link>
               </li>
               <li>
-                <a onClick={logoutUserFunction} className={styles.logout}>
+                <button onClick={logoutUserFunction} className={styles.logout}>
                   Log Out
-                </a>
+                </button>
               </li>
             </>
           )}
