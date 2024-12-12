@@ -29,7 +29,7 @@
 }
 
 .nav li a {
-  color: black;
+  color: #543310;
   cursor: pointer;
   font-size: 30px;
   text-decoration: none;
@@ -44,8 +44,8 @@
   border-left: 10px solid #af8f6f;
   border-right: 10px solid #af8f6f;
   margin: 0 auto;
-  width: 1200px;
   padding: 30px;
+  width: 1200px;
 }
 
 .welcome {
@@ -75,10 +75,6 @@
   width: 800px;
 }
 
-.form textarea:active {
-  border: 3px solid #74512d;
-}
-
 .form button {
   all: unset;
   background-color: #fff3e3;
@@ -100,6 +96,7 @@
 
 .post {
   display: flex;
+  justify-content: center;
 }
 
 .post ul {

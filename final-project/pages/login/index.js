@@ -6,7 +6,6 @@ export default function Login({ isLoggedIn, loginUserFunction }) {
   useEffect(() => {
     if (isLoggedIn) router.push("/diary");
   }, [isLoggedIn]);
-  console.log(isLoggedIn);
   return (
     <div>
       <LoginForm loginUserFunction={loginUserFunction} />

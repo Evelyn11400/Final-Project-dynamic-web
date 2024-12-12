@@ -4,7 +4,7 @@ export default function Header({ isLoggedIn, logoutUserFunction }) {
   return (
     <div className={styles.headerWrapper}>
       <div className={styles.title}>
-        <h1>Online Dairy Book</h1>
+        <h1>Online Diary Book</h1>
       </div>
       <div className={styles.nav}>
         <ul>

@@ -45,7 +45,6 @@ export default function Diary({ userInformation }) {
         id: doc.id,
         ...doc.data(),
       }));
-      console.log("Fetched diaries:", diaryList);
       setDiaries(diaryList);
     });
 
@@ -90,9 +89,9 @@ export default function Diary({ userInformation }) {
       </div>
       <div className={styles.post}>
         <ul>
-          <h2>Past Dairies</h2>
+          <h2>Past Diaries</h2>
           {diaries.length === 0 ? (
-            <p>No Dairy found. Create your first dairy now!</p>
+            <p>No Diary found. Create your first diary now!</p>
           ) : (
             diaries.map((diary) => (
               <li key={diary.id}>
